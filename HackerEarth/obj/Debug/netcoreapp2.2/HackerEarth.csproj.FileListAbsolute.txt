@@ -1,0 +1,10 @@
+D:\Projects\HackerEarth\obj\Debug\netcoreapp2.2\HackerEarth.csprojAssemblyReference.cache
+D:\Projects\HackerEarth\obj\Debug\netcoreapp2.2\HackerEarth.AssemblyInfoInputs.cache
+D:\Projects\HackerEarth\obj\Debug\netcoreapp2.2\HackerEarth.AssemblyInfo.cs
+D:\Projects\HackerEarth\bin\Debug\netcoreapp2.2\HackerEarth.deps.json
+D:\Projects\HackerEarth\bin\Debug\netcoreapp2.2\HackerEarth.runtimeconfig.json
+D:\Projects\HackerEarth\bin\Debug\netcoreapp2.2\HackerEarth.runtimeconfig.dev.json
+D:\Projects\HackerEarth\bin\Debug\netcoreapp2.2\HackerEarth.dll
+D:\Projects\HackerEarth\bin\Debug\netcoreapp2.2\HackerEarth.pdb
+D:\Projects\HackerEarth\obj\Debug\netcoreapp2.2\HackerEarth.dll
+D:\Projects\HackerEarth\obj\Debug\netcoreapp2.2\HackerEarth.pdb

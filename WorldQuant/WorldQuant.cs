@@ -10,45 +10,33 @@ public class WorldQuant
 
     public void Start()
     {
-        var lines = new List<string>();
-        foreach (string row in File.ReadLines(inputLocation, Encoding.UTF8))
-        {
-            lines.Add(row);
-        }
+        string c = "20 20 10 5 25 35";
+        string v = "120 2 50 100 1 5";
+        Dictionary<int, int> input = new Dictionary<int, int>(){
+            {120, 20},
+            {2, 20},
+            {50, 10},
+            {100, 5},
+            {1, 25},
+            {5, 35}
+        };
+        int w = 57;
+        // 120 100 50 5  2  1
+        // 20  5   10 35 20 25
+    }
 
-        int q = Convert.ToInt32(lines[0]);
-        lines.RemoveAt(0);
+    static string Output(int weight, Dictionary<int, int> data)
+    {
 
-        for (int qItr = 0; qItr < lines.Count - 1; qItr += 2)
-        {
-            string s1 = lines[qItr];
-
-            string s2 = lines[qItr + 1];
-
-            string result = TwoStrings(s1, s2);
-
-            Console.WriteLine(result);
-        }
 
     }
 
-    static string TwoStrings(string s1, string s2)
+    static string sortValue(Dictionary<int, int> data, Dictionary<int, int> sortedDic)
     {
-        HashSet<char> data = new HashSet<char>();
-        foreach (char c in s1)
-        {
-            data.Add(c);
-        }
-
-        foreach (char c in s2)
-        {
-            if (data.Contains(c))
-            {
-                return "YES";
-            }
-        }
-        return "NO";
-
+        var myKeys = new List<int>(data.Keys); ;
+        //myKeys.
+        myKeys.Sort((a, b) => a.Value.CompareTo(b.Value))
+        
     }
 
 
